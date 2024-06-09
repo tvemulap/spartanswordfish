@@ -1,0 +1,26 @@
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+function NavBar() {
+  return (
+    <Navbar bg="primary" data-bs-theme="dark" fixed="top">
+    <Container>
+      <Navbar.Brand href="#home">spartanswordfish</Navbar.Brand>
+      <Nav className="me-auto">
+        <Nav.Link href="/aboutme">About Me</Nav.Link>
+        <NavDropdown title="Projects" id="basic-nav-dropdown">
+            <NavDropdown.Item href="/parallel">Parallel</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action/3.4">Threat (In Progress)</NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
+    </Container>
+  </Navbar>
+  );
+}
+
+export default NavBar;

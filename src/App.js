@@ -1,11 +1,24 @@
-import './App.css';
+import React from "react";
+import './pages/App.css';
+import NavBar from './NavBar.js';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Parallel from "./pages/Parallel.js";
+import AboutMe from "./pages/AboutMe.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <p><iframe title="Parallel Planetfall" width="1280" height="765" src="https://app.powerbi.com/view?r=eyJrIjoiMjcwYTJiNjItYTBiMS00NjczLThhNjgtYjEyZWRjMjdkMzcxIiwidCI6IjRhNDI4NzQ0LWQ1MDgtNDI1YS1iM2Q1LTQ0Y2Q1YjkwYjkzOSIsImMiOjZ9&pageName=254b8012b2e7084b7e60" frameborder="0" allowFullScreen="true"></iframe></p>
-      </header>
+    <div>
+      <NavBar></NavBar>
+      <div className="App">
+        <Router>
+          <Routes>
+            
+            <Route path="/parallel" element={<Parallel />} />
+            <Route path="/aboutme" element={<AboutMe />} />
+          </Routes>
+        </Router>
+      </div>
     </div>
   );
 }
