@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Parallel from "./pages/Parallel.js";
 import AboutMe from "./pages/AboutMe.js";
+import Home from "./pages/Home.js";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <div className="App">
         <Router>
           <Routes>
-            
+            <Route path="/" element={<Home />} />
             <Route path="/parallel" element={<Parallel />} />
             <Route path="/aboutme" element={<AboutMe />} />
           </Routes>

@@ -9,13 +9,13 @@ function NavBar() {
   return (
     <Navbar bg="primary" data-bs-theme="dark" fixed="top">
     <Container>
-      <Navbar.Brand href="#home">spartanswordfish</Navbar.Brand>
+      <Navbar.Brand href="/">spartanswordfish</Navbar.Brand>
       <Nav className="me-auto">
         <Nav.Link href="/aboutme">About Me</Nav.Link>
         <NavDropdown title="Projects" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/parallel">Parallel</NavDropdown.Item>
+            <NavDropdown.Item href="/parallel">Parallel Match Stats</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Threat (In Progress)</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">Thr (TBA)</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Container>
