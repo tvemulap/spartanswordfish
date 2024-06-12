@@ -15,7 +15,7 @@ function NavBar() {
         <NavDropdown title="Projects" id="basic-nav-dropdown">
             <NavDropdown.Item href="/parallel">Parallel Match Stats</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Thr (TBA)</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4" disabled>Threat (TBA)</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Container>
