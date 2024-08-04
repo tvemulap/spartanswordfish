@@ -8,7 +8,7 @@ function Home() {
   return (
     <div  className="home-header">
       <div class="container">
-        <div class="row mt-8">
+        <div class="row mt-4">
           <div class="col-sm">
             <img src="Azuki6518.png" class="rounded float-left" alt="Azuki #6518" height="400"></img>
           </div>

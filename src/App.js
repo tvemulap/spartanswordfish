@@ -10,8 +10,8 @@ import Home from "./pages/Home.js";
 function App() {
   return (
     <div>
-      <NavBar></NavBar>
       <div className="App">
+        <NavBar></NavBar>
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
