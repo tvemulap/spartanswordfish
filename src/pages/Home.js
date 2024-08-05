@@ -27,7 +27,7 @@ function Home() {
             <img src="Bean2088.png" class="rounded float-left" alt="Beanz #2088" height="400"></img>
           </div>
           <div class="col-sm">
-            <img src="me.png" class="rounded float-left" alt="Elemental #12734" height="400"></img>
+            <img src="AzukiElemental12734.png" class="rounded float-left" alt="Elemental #12734" height="400"></img>
           </div>
           <div class="col-sm">
             <img src="Bean9914.png" class="rounded float-left" alt="Beanz #9914" height="400"></img>

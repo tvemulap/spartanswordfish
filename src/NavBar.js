@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function NavBar() {
   return (
     <Navbar bg="transparent" data-bs-theme="dark" fixed="top" className="navbar">
-      <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'></link>
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'></link>
       <Container>
         <Navbar.Brand href="/">spartanswordfish</Navbar.Brand>
         <Nav className="me-auto">
