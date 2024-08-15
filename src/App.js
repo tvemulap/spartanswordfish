@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Parallel from "./pages/Parallel.js";
 import AboutMe from "./pages/AboutMe.js";
 import Home from "./pages/Home.js";
+import BeanzLeague from "./pages/thebeanzleague.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/parallel" element={<Parallel />} />
             <Route path="/aboutme" element={<AboutMe />} />
+            <Route path="/beanzleague" element={<BeanzLeague />} />
           </Routes>
         </Router>
       </div>
