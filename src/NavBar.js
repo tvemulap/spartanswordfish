@@ -3,11 +3,22 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './NavBar.css';
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.scrollY;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-60px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 
 function NavBar() {
   return (
-    <Navbar bg="transparent" data-bs-theme="dark" fixed="top" className="navbar">
+    <Navbar bg="transparent" data-bs-theme="dark" fixed="top" className="navbar" id="navbar">
       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'></link>
       <Container>
         <Navbar.Brand href="/">spartanswordfish</Navbar.Brand>
