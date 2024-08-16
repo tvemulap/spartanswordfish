@@ -9,3 +9,9 @@
     color: white;
     padding-top: 55px;
   }
+
+.title {
+  align-items: left;
+  justify-content: left;
+  font-family: "Sequel", sans-serif;
+}
