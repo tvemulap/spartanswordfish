@@ -1,6 +1,7 @@
 import React from "react";
 import './pages/App.css';
 import NavBar from './NavBar.js';
+import Footer from './Footer.js';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Parallel from "./pages/Parallel.js";
@@ -21,6 +22,7 @@ function App() {
             <Route path="/beanzleague" element={<BeanzLeague />} />
           </Routes>
         </Router>
+        <Footer></Footer>
       </div>
     </div>
   );
