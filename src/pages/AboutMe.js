@@ -8,7 +8,7 @@ function AboutMe() {
   return (
     <div  className="about-header">
         <Card style={{ width: '18rem' }} data-bs-theme="dark">
-            <img src="AzukiElemental12734.png" alt="Me" height="286" class="rounded"/>
+            <img src="./AzukiElemental12734.png" alt="Me" height="286" class="rounded"/>
             <Card.Body>
                 <Card.Title>teja.eth</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">tvemulap</Card.Subtitle>
