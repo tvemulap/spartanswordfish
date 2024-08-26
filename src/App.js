@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/parallel" element={<Parallel />} />
             <Route path="/aboutme" element={<AboutMe />} />
-            <Route path="/beanzleague" element={<BeanzLeague />} />
+            <Route path="/fantasyfootball" element={<BeanzLeague />} />
           </Routes>
         </Router>
         <Footer></Footer>
