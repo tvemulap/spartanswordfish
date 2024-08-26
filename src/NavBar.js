@@ -29,7 +29,7 @@ function NavBar() {
           <Nav.Link href="#" disabled>Resume</Nav.Link>
           <NavDropdown title="Projects" id="basic-nav-dropdown">
               <NavDropdown.Item href="/parallel">Parallel Match Stats</NavDropdown.Item>
-              <NavDropdown.Item href="/beanzleague">Fantasy Fantasy</NavDropdown.Item>
+              <NavDropdown.Item href="/fantasyfootball">Fantasy Football</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#" disabled>Movie Reviews</NavDropdown.Item>
               <NavDropdown.Item href="#" disabled>Some web3 thing</NavDropdown.Item>
