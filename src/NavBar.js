@@ -32,7 +32,7 @@ function NavBar() {
               <NavDropdown.Item href="/fantasyfootball">Fantasy Football</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#" disabled>Movie Reviews</NavDropdown.Item>
-              <NavDropdown.Item href="#" disabled>Some web3 thing</NavDropdown.Item>
+              <NavDropdown.Item href="/token">web3 Token</NavDropdown.Item>
               <NavDropdown.Item href="#" disabled>Threat (TBA)</NavDropdown.Item>
           </NavDropdown>
         </Nav>

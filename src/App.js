@@ -8,6 +8,7 @@ import Parallel from "./pages/Parallel.js";
 import AboutMe from "./pages/AboutMe.js";
 import Home from "./pages/Home.js";
 import FantasyFootball from "./pages/fantasyfootball.js";
+import Token from "./pages/Token.js";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/parallel" element={<Parallel />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/fantasyfootball" element={<FantasyFootball />} />
+            <Route path="/token" element={<Token />} />
           </Routes>
         </Router>
         <Footer></Footer>
